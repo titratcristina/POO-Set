@@ -36,8 +36,8 @@ public:
 	void remove(int);               // sterge elementul de pe poziția dată ca parametru
 	int find(int);                  // returnează poziția elementului
 
-
 	//  Obținerea elementelor pare, respectiv impare din mulțime (sub formă de Set).
+	Set getEven();		// returnează un set nou cu elementele pare din mulțimea inițială
 
 	//  Obținerea sumei elementelor din mulțime.
 

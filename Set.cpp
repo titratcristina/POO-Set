@@ -139,3 +139,16 @@ int Set::find(int element) {
 	}
 	return -1;
 }
+
+// metodă care iterează array-ul cu elementele din muțime și verifică care sunt pare
+Set Set::getEven() {
+	Node *p = array;
+	Set s;
+	while (p != nullptr) {
+		if (p->getInfo() % 2 == 0)
+			s.insert(p->getInfo());
+		p = p->getNext();
+	}
+	return s;
+}
+
