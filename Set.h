@@ -21,12 +21,13 @@ public:
 	//  TODO
 
 	//  Implementatea constructorilor cu parametri, fără parametri, de copiere.
-	Set();					// constructor fără parametrii
+	Set();					// constructor fără parametri
 	Set(int);				// constructor cu un parametru
 
 	//  Implementarea destructorului.
 
 	//  Inserarea, ștergerea și căutarea unui element.
+	void insertAt(int, int);		// inserează un element pe pozitia specificată
 
 	//  Obținerea elementelor pare, respectiv impare din mulțime (sub formă de Set).
 
