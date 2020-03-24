@@ -22,6 +22,7 @@ public:
 
 	//  Implementatea constructorilor cu parametri, fără parametri, de copiere.
 	Set();					// constructor fără parametrii
+	Set(int);				// constructor cu un parametru
 
 	//  Implementarea destructorului.
 
