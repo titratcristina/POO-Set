@@ -124,3 +124,18 @@ void Set::remove(int index) {
 	}
 	size--;
 }
+
+// returnez pozitia elementului, altfel -1 dacă nu există
+int Set::find(int element) {
+	Node *p = array;
+	int i = 0;
+	while (p != nullptr) {
+		if (p->getInfo() == element) {
+			return i;
+		} else {
+			i++;
+		}
+		p = p->getNext();
+	}
+	return -1;
+}
