@@ -152,3 +152,14 @@ Set Set::getEven() {
 	return s;
 }
 
+// metodă care iterează array-ul cu elementele din muțime și verifică care sunt impare
+Set Set::getOdd() {
+	Node *p = array;
+	Set s;
+	while (p != nullptr) {
+		if (p->getInfo() % 2 != 0)
+			s.insert(p->getInfo());
+		p = p->getNext();
+	}
+	return s;
+}

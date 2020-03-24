@@ -38,6 +38,7 @@ public:
 
 	//  Obținerea elementelor pare, respectiv impare din mulțime (sub formă de Set).
 	Set getEven();		// returnează un set nou cu elementele pare din mulțimea inițială
+	Set getOdd();		// returnează un set nou cu elementele impare din mulțimea inițială
 
 	//  Obținerea sumei elementelor din mulțime.
 
