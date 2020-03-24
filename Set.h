@@ -44,6 +44,7 @@ public:
 	int sum();
 
 	//  Obținerea numărului de elemente din mulțime.
+	unsigned length();
 
 	//  Supraı̂ncărcarea operatorului =.
 

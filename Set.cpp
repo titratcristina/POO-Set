@@ -174,3 +174,8 @@ int Set::sum() {
 	}
 	return s;
 }
+
+// metodă care returnează lungimea setului
+unsigned Set::length() {
+	return size;
+}
