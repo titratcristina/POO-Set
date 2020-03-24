@@ -24,6 +24,17 @@ Set::Set(int element, int index) {
 	}
 }
 
+// constructor de copiere
+Set::Set(Set &s) {
+	array = nullptr;
+	size = 0;
+	Node *p = s.array;
+	while (p != nullptr) {
+		insert(p->getInfo());
+		p = p->getNext();
+	}
+}
+
 // metodă de inserare a unui element pe ultima poziție
 void Set::insert(int index) {
 	insertAt(index, size + 1);

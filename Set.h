@@ -25,7 +25,7 @@ public:
 	Set();					// constructor fără parametri
 	Set(int);				// constructor cu un parametru
 	Set(int, int);			// constructor cu doi parametri (inserează un element pe o poziție dată)
-
+	Set(Set &);				// constructor de copiere
 
 	//  Implementarea destructorului.
 
