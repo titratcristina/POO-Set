@@ -63,7 +63,8 @@ public:
 	void operator*(int);
 
 	//  Supraı̂ncărcarea operatorilor de citire și afișare (<< și >>).
-
+	friend istream &operator>>(istream &, Set &);
+	friend ostream &operator<<(ostream &, const Set &);
 
 };
 

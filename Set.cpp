@@ -235,3 +235,26 @@ void Set::operator*(int i) {
 		p = p->getNext();
 	}
 }
+
+// supraı̂ncărcarea operatorului de afisare
+ostream &operator<<(ostream &output, const Set &s) {
+	Node *p = s.array;
+	while (p != nullptr) {
+		output << p->getInfo() << " ";
+		p = p->getNext();
+	}
+	return output;
+}
+
+
+// supraı̂ncărcarea operatorului de citire
+istream &operator>>(istream &in, Set &s) {
+	int len, i, element;
+	in >> len;
+	for (i = 0; i < len; i++) {
+		in >> element;
+		s.insert(element);
+	}
+	return in;
+}
+
