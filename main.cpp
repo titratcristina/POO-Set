@@ -18,12 +18,12 @@ void setTests() {
 	s1.remove(3);
 	assert(s1[1] == 4);
 
-	try {
-		s1[5];
-		assert(false);
-	} catch (...) {
-		static_assert(true, "");
-	}
+//	try {
+//		s1[5];
+//		assert(false);
+//	} catch (...) {
+//		static_assert(true, "");
+//	}
 
 	assert(s2[0] == 40);
 
@@ -32,7 +32,6 @@ void setTests() {
 
 	s2 * 2;
 	assert(s2[0] == 80);
-
 
 	// se citesc 3 numere de la tastatura: 4, 8, 10
 	//cin >> s3;
@@ -45,18 +44,16 @@ void setTests() {
 	s4.insertAt(10, 2);
 	assert( s4[2] == 10);
 
-//	s4 = s3 * 2;
-//	cout << s4 << endl;
-//	cout << s4;
 
 
 }
 
 int main() {
-	Set s;
+
 	setTests();
 
 	cout << "Testele au trecut" << endl;
+
 
 	return 0;
 }
