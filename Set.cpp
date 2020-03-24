@@ -16,7 +16,23 @@ Set::Set(int element) {
 	size = 1;
 }
 
+// funcție booleană care returnează true dacă un element este de mai multe ori în mulțime
+bool Set::has(int element) {
+	Node *p = array;
+	while (p != nullptr) {
+		if (p->getInfo() == element) {
+			return true;
+		}
+		p = p->getNext();
+	}
+	return false;
+}
+
 void Set::insertAt(int element, int index) {
+	// verific să nu existe același element de mai multe ori într-un set
+	if (has(element)) {
+		return;
+	}
 	if (array == nullptr) {
 		array = new Node(element, nullptr);
 		size = 1;

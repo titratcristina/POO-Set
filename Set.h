@@ -16,6 +16,7 @@ class Set {
 	Node *array;
 	unsigned size;
 
+	bool has(int);		// funcție pentru a verifica dacă un element se află în set
 public:
 
 	//  TODO
