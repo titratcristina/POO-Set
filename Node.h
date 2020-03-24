@@ -1,10 +1,12 @@
 //
 // Created by Cristina Titrat on 24/03/2020.
 //
+#pragma once
 
 #ifndef POO_SET_NODE_H
 #define POO_SET_NODE_H
 
+#include <iostream>
 
 class Node {
 	int info;
