@@ -25,3 +25,13 @@ void Node::setInfo(int i) {
 void Node::setNext(Node *n) {
 	next = n;
 }
+
+// Se implementează getterul Info pentru a returna un element
+int Node::getInfo() {
+	return info;
+}
+
+// Se implementează getterul Next pentru a returna următorul element
+Node *Node::getNext() {
+	return next;
+}

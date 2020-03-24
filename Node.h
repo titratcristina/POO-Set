@@ -22,6 +22,12 @@ public:
 	// Setter pentru next
 	void setNext(Node *);
 
+	// Getter pentru info
+	int getInfo();
+
+	// Getter pentru next
+	Node *getNext();
+
 };
 
 
