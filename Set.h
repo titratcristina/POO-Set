@@ -17,6 +17,8 @@ class Set {
 	unsigned size;
 
 	bool has(int);		// funcție pentru a verifica dacă un element se află în set
+	int get(int);       // ia elementul de pe poziția dată
+
 public:
 
 	//  TODO

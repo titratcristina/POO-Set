@@ -192,6 +192,17 @@ void Set::operator=(Set &s) {
 	}
 }
 
+int Set::get(int i) {
+	if (i < 0 || i >= size) {
+		return -1;
+	}
+	Node *p = array;
+	for (int j = i; j > 0; j--) {
+		p = p->getNext();
+	}
+	return p->getInfo();
+}
+
 // supraı̂ncărcarea operatorului []
 int Set::operator[](unsigned index) {
 	if (index > size) {
