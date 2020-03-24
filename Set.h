@@ -28,6 +28,7 @@ public:
 	Set(Set &);				// constructor de copiere
 
 	//  Implementarea destructorului.
+	~Set();
 
 	//  Inserarea, ștergerea și căutarea unui element.
 	void insertAt(int, int);		// inserează un element pe pozitia specificată

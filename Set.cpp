@@ -35,6 +35,18 @@ Set::Set(Set &s) {
 	}
 }
 
+// destructor
+Set::~Set() {
+	Node *p = array, *o;
+	while (p != nullptr) {
+		o = p;
+		p = p->getNext();
+		delete o;
+	}
+	array = nullptr;
+	size = 0;
+}
+
 // metodă de inserare a unui element pe ultima poziție
 void Set::insert(int index) {
 	insertAt(index, size + 1);
