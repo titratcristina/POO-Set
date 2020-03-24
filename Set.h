@@ -14,7 +14,7 @@ using namespace std;
 
 class Set {
 	Node *array;
-	unsigned size;
+	unsigned size{};
 
 	bool has(int);        		// funcție pentru a verifica dacă un element se află în set
 	int get(int);       		// ia elementul de pe poziția dată
@@ -23,7 +23,7 @@ public:
 
 	//  Implementatea constructorilor cu parametri, fără parametri, de copiere.
 	Set();                    	// constructor fără parametri
-	Set(int);                	// constructor cu un parametru
+	explicit Set(int);          // constructor cu un parametru
 	Set(int, int);            	// constructor cu doi parametri (inserează un element pe o poziție dată)
 	Set(Set &);                	// constructor de copiere
 

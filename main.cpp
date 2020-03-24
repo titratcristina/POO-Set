@@ -22,7 +22,7 @@ void setTests() {
 		s1[5];
 		assert(false);
 	} catch (...) {
-		assert(true);
+		static_assert(true, "");
 	}
 
 	assert(s2[0] == 40);
