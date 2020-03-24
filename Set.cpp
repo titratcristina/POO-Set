@@ -226,3 +226,12 @@ bool Set::operator>(const Set &s) {
 	}
 	return false;
 }
+
+// supraı̂ncărcarea operatorului *
+void Set::operator*(int i) {
+	Node *p = array;
+	while (p != nullptr) {
+		p->setInfo(p->getInfo() * i);
+		p = p->getNext();
+	}
+}

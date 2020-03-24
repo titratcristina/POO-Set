@@ -60,6 +60,7 @@ public:
 	bool operator>(const Set &);
 
 	//  Supraîncărcarea operatorului * pentru înmulțirea cu un scalar.
+	void operator*(int);
 
 	//  Supraı̂ncărcarea operatorilor de citire și afișare (<< și >>).
 
