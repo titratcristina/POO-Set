@@ -163,3 +163,14 @@ Set Set::getOdd() {
 	}
 	return s;
 }
+
+// metodă care returnează suma elementelor din set
+int Set::sum() {
+	int s = 0;
+	Node *p = array;
+	while (p != nullptr) {
+		s = s + p->getInfo();
+		p = p->getNext();
+	}
+	return s;
+}

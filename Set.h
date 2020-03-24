@@ -41,6 +41,7 @@ public:
 	Set getOdd();		// returnează un set nou cu elementele impare din mulțimea inițială
 
 	//  Obținerea sumei elementelor din mulțime.
+	int sum();
 
 	//  Obținerea numărului de elemente din mulțime.
 
