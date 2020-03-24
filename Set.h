@@ -12,7 +12,8 @@
 using namespace std;
 
 class Set {
-	int size, *array;
+	Node *array;
+	unsigned size;
 
 public:
 
