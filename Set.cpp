@@ -199,3 +199,14 @@ int Set::operator[](unsigned index) {
 	}
 	return get(index);
 }
+
+// supraı̂ncărcarea operatorului +
+Set Set::operator+(const Set &o) {
+	Set s(*this);
+	Node *p = o.array;
+	while (p != nullptr) {
+		s.insert(p->getInfo());
+		p = p->getNext();
+	}
+	return s;
+}

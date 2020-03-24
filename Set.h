@@ -53,6 +53,7 @@ public:
 	int operator[](unsigned);
 
 	//  Supraîncărcarea operatorului + care să efectueze reuniunea a două mulțimi (fără duplicate).
+	Set operator+(const Set &);
 
 	//  Supraîncărcarea operatorilor < și > care să compare cardinalul a două mulțimi.
 
