@@ -5,7 +5,22 @@
 #include <cassert>
 
 using namespace std;
+
+void setTests () {
+	Set s;
+
+//	try {
+//		assert(false);
+//	} catch(...) {
+//		assert(true);
+//	}
+}
+
 int main() {
-    cout << "Hello, World!" << endl;
+
+	setTests();
+
+	cout << "Testele au trecut" << endl;
+
     return 0;
 }
