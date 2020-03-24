@@ -101,8 +101,9 @@ void Set::insertAt(int element, int index) {
 	size++;
 }
 
-// metodă care șterge elementul de pe poziția dată
-void Set::remove(int index) {
+// metodă care șterge elementul dat ca parametru
+void Set::remove(int element) {
+	int index = find(element);
 	if (index < 0 || index >= size) {
 		return;
 	}

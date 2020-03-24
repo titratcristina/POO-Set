@@ -33,7 +33,7 @@ public:
 	//  Inserarea, ștergerea și căutarea unui element.
 	void insertAt(int, int);	// inserează un element pe pozitia specificată
 	void insert(int);           // inserează un element pe ultima poziție
-	void remove(int);           // sterge elementul de pe poziția dată ca parametru
+	void remove(int);           // sterge elementul dat ca parametru
 	int find(int);              // returnează poziția elementului
 
 	//  Obținerea elementelor pare, respectiv impare din mulțime (sub formă de Set).
