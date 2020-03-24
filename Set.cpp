@@ -16,6 +16,11 @@ Set::Set(int element) {
 	size = 1;
 }
 
+// metodă de inserare a unui element pe ultima poziție
+void Set::insert(int index) {
+	insertAt(index, size + 1);
+}
+
 // funcție booleană care returnează true dacă un element este de mai multe ori în mulțime
 bool Set::has(int element) {
 	Node *p = array;
@@ -28,6 +33,7 @@ bool Set::has(int element) {
 	return false;
 }
 
+// metodă de inserare a unui element pe o poziție dată
 void Set::insertAt(int element, int index) {
 	// verific să nu existe același element de mai multe ori într-un set
 	if (has(element)) {
