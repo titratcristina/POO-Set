@@ -5,8 +5,43 @@
 #ifndef POO_SET_SET_H
 #define POO_SET_SET_H
 
+#include "Set.h"
+#include <iostream>
+#include <ostream>
+
+using namespace std;
 
 class Set {
+	int size, *array;
+
+public:
+
+	//  TODO
+
+	//  Implementatea constructorilor cu parametri, fără parametri, de copiere.
+
+	//  Implementarea destructorului.
+
+	//  Inserarea, ștergerea și căutarea unui element.
+
+	//  Obținerea elementelor pare, respectiv impare din mulțime (sub formă de Set).
+
+	//  Obținerea sumei elementelor din mulțime.
+
+	//  Obținerea numărului de elemente din mulțime.
+
+	//  Supraı̂ncărcarea operatorului =.
+
+	//  Supraîncărcarea operatorului [] pentru accesarea elementului de pe poziția i.
+
+	//  Supraîncărcarea operatorului + care să efectueze reuniunea a două mulțimi (fără duplicate).
+
+	//  Supraîncărcarea operatorilor < și > care să compare cardinalul a două mulțimi.
+
+	//  Supraîncărcarea operatorului * pentru înmulțirea cu un scalar.
+
+	//  Supraı̂ncărcarea operatorilor de citire și afișare (<< și >>).
+
 
 };
 
