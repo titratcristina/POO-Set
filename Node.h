@@ -13,6 +13,9 @@ public:
 	// Constructor fără parametri
 	Node();
 
+	// Constructor cu parametri
+	Node(int, Node *);
+
 };
 
 

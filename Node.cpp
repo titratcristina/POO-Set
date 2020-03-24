@@ -9,3 +9,9 @@ Node::Node() {
 	info = 0;
 	next = nullptr;
 }
+
+// Constructorul inițializează nodul cu parametrii primiți
+Node::Node(int i, Node *n) {
+	info = i;
+	next = n;
+}
