@@ -48,8 +48,8 @@ Set::~Set() {
 }
 
 // metodă de inserare a unui element pe ultima poziție
-void Set::insert(int index) {
-	insertAt(index, size + 1);
+void Set::insert(int element) {
+	insertAt(element, size + 1);
 }
 
 // funcție booleană care returnează true dacă un element este de mai multe ori în mulțime
@@ -193,6 +193,7 @@ void Set::operator=(Set &s) {
 	}
 }
 
+
 int Set::get(int i) {
 	if (i < 0 || i >= size) {
 		return -1;
@@ -269,4 +270,5 @@ istream &operator>>(istream &in, Set &s) {
 	}
 	return in;
 }
+
 
