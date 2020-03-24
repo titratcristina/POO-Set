@@ -100,3 +100,27 @@ void Set::insertAt(int element, int index) {
 	o->setNext(p);
 	size++;
 }
+
+// metodă care șterge elementul de pe poziția dată
+void Set::remove(int index) {
+	if (index < 0 || index >= size) {
+		return;
+	}
+	Node *p = array;
+	if (index == 0) {
+		if (size == 1 || size == 0) {
+			array = nullptr;
+		} else {
+			array = array->getNext();
+			delete p;
+		}
+	} else {
+		for (int j = index; j > 1; j--) {
+			p = p->getNext();
+		}
+		Node *o = p->getNext();
+		p->setNext(o->getNext());
+		delete o;
+	}
+	size--;
+}
