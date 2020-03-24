@@ -3,3 +3,9 @@
 //
 
 #include "Set.h"
+
+// constructor fără parametrii care inițializează Setul
+Set::Set() {
+	array = nullptr;
+	size = 0;
+}

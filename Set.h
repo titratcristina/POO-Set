@@ -21,6 +21,7 @@ public:
 	//  TODO
 
 	//  Implementatea constructorilor cu parametri, fără parametri, de copiere.
+	Set();					// constructor fără parametrii
 
 	//  Implementarea destructorului.
 
