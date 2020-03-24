@@ -7,6 +7,11 @@
 
 
 class Node {
+	int info;
+	Node *next;
+public:
+	// Constructor fără parametri
+	Node();
 
 };
 
