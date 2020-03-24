@@ -47,6 +47,7 @@ public:
 	unsigned length();
 
 	//  Supraı̂ncărcarea operatorului =.
+	void operator = (Set&);
 
 	//  Supraîncărcarea operatorului [] pentru accesarea elementului de pe poziția i.
 	int operator[](unsigned);

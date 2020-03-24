@@ -180,6 +180,18 @@ unsigned Set::length() {
 	return size;
 }
 
+// supraı̂ncărcarea operatorului =
+void Set::operator=(Set &s) {
+	if (this->size != 0) {
+		this->~Set();
+		for (int i = 0; i < s.size; i++)
+			this->insert(s[i]);
+	} else {
+		for (int i = 0; i < s.size; i++)
+			this->insert(s[i]);
+	}
+}
+
 // supraı̂ncărcarea operatorului []
 int Set::operator[](unsigned index) {
 	if (index > size) {
