@@ -2,7 +2,7 @@
 
 Implementați clasa **Set** (mulțime) care să ofere următoarele funcționalități:
 
-- Fiecare element să apară o singură dată (operația care se va realiza această funcționalitate va fi implementată cât mai eficient).
+- Fiecare element să apară o singură dată (operația care va realiza această funcționalitate va fi implementată cât mai eficient).
 
 - Inserarea, ștergerea și căutarea unui element.
 
@@ -21,7 +21,7 @@ Implementați clasa **Set** (mulțime) care să ofere următoarele funcționalit
 - Obținerea numărului de elemente din mulțime.
 
 
-##Cerințe globale:
+## Cerințe globale:
 Următoarele cerințe sunt valabile pentru toate proiectele:
 
 - Comentarii ı̂n cod care să ofere detalii despre modul de implementare.
@@ -58,6 +58,11 @@ Următoarele cerințe sunt valabile pentru toate proiectele:
 
 
 ## POO-Set
- Programare Orientată pe Obiecte (POO) - Tema 1 Set (Mulțime)
+Programare Orientată pe Obiecte (POO) - Tema 1 Set (Mulțime)
 
-## DEADLINE: 22 martie 2020, ora 12:00
+## DEADLINE
+~~22 martie 2020, ora 12:00~~
+~~24 martie 2020, ora 12:00~~
+24 martie 2020, ora 00:00
+
+
