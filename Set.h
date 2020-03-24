@@ -6,6 +6,7 @@
 #define POO_SET_SET_H
 
 #include "Set.h"
+#include "Node.h"
 #include <iostream>
 #include <ostream>
 
