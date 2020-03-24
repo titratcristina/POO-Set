@@ -28,6 +28,9 @@ public:
 	// Getter pentru next
 	Node *getNext();
 
+	// Desctructor
+	// ~Node();
+
 };
 
 

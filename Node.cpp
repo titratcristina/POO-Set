@@ -35,3 +35,9 @@ int Node::getInfo() {
 Node *Node::getNext() {
 	return next;
 }
+
+// Se implementează un destructor pentru clasa Node
+//Node::~Node() {
+//	info = 0;
+//	next = NULL;
+//}
