@@ -16,6 +16,14 @@ Set::Set(int element) {
 	size = 1;
 }
 
+// constructor cu doi parametri care inserează elementul pe poziția dată
+Set::Set(int element, int index) {
+	array = nullptr;
+	for (int i = 0; i < element; i++) {
+		insert(index);
+	}
+}
+
 // metodă de inserare a unui element pe ultima poziție
 void Set::insert(int index) {
 	insertAt(index, size + 1);

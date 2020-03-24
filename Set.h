@@ -24,11 +24,15 @@ public:
 	//  Implementatea constructorilor cu parametri, fără parametri, de copiere.
 	Set();					// constructor fără parametri
 	Set(int);				// constructor cu un parametru
+	Set(int, int);			// constructor cu doi parametri (inserează un element pe o poziție dată)
+
 
 	//  Implementarea destructorului.
 
 	//  Inserarea, ștergerea și căutarea unui element.
 	void insertAt(int, int);		// inserează un element pe pozitia specificată
+	void insert(int);               // inserează un element pe ultima poziție
+
 
 	//  Obținerea elementelor pare, respectiv impare din mulțime (sub formă de Set).
 
