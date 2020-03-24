@@ -179,3 +179,11 @@ int Set::sum() {
 unsigned Set::length() {
 	return size;
 }
+
+// supraı̂ncărcarea operatorului []
+int Set::operator[](unsigned index) {
+	if (index > size) {
+		throw out_of_range("Index mai mare ca dimensiunea vectorului");
+	}
+	return get(index);
+}

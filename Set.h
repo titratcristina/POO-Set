@@ -49,6 +49,7 @@ public:
 	//  Supraı̂ncărcarea operatorului =.
 
 	//  Supraîncărcarea operatorului [] pentru accesarea elementului de pe poziția i.
+	int operator[](unsigned);
 
 	//  Supraîncărcarea operatorului + care să efectueze reuniunea a două mulțimi (fără duplicate).
 
