@@ -2,7 +2,7 @@
 #include "Node.h"
 #include "Set.h"
 #include <exception>
-#include <assert.h>
+#include <cassert>
 
 using namespace std;
 int main() {
