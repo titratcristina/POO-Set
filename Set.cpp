@@ -210,3 +210,19 @@ Set Set::operator+(const Set &o) {
 	}
 	return s;
 }
+
+// supraı̂ncărcarea operatorului <, folosind o funcție bool
+bool Set::operator<(const Set &s) {
+	if (this->size < s.size) {
+		return true;
+	}
+	return false;
+}
+
+// supraı̂ncărcarea operatorului >, folosind o funcție bool
+bool Set::operator>(const Set &s) {
+	if (this->size > s.size) {
+		return true;
+	}
+	return false;
+}

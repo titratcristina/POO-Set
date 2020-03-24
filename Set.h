@@ -56,6 +56,8 @@ public:
 	Set operator+(const Set &);
 
 	//  Supraîncărcarea operatorilor < și > care să compare cardinalul a două mulțimi.
+	bool operator<(const Set &);
+	bool operator>(const Set &);
 
 	//  Supraîncărcarea operatorului * pentru înmulțirea cu un scalar.
 
