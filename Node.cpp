@@ -15,3 +15,13 @@ Node::Node(int i, Node *n) {
 	info = i;
 	next = n;
 }
+
+// Se implementează setterul Info pentru a seta un element
+void Node::setInfo(int i) {
+	info = i;
+}
+
+// Se implementează setterul Next pentru a seta următorul element
+void Node::setNext(Node *n) {
+	next = n;
+}

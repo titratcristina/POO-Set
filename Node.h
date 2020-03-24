@@ -16,6 +16,12 @@ public:
 	// Constructor cu parametri
 	Node(int, Node *);
 
+	// Setter pentru info
+	void setInfo(int);
+
+	// Setter pentru next
+	void setNext(Node *);
+
 };
 
 
